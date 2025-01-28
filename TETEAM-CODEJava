@@ -2,11 +2,7 @@
 {
 "TitleCode" : "TEST ON TWTEAM",
 "Msg" : "TWTEM 66666",
-"Code":"twteam.setAdapter(new TwteamAdapter(test));
-((BaseAdapter)twteam.getAdapter()).notifyDataSetChanged();
-Q = new Gson().toJson(test);
-test = new Gson().fromJson(_response, new TypeToken<ArrayList<HashMap<String, Object>>>(){}.getType());
-_LoadJsonByTWTEAM_Code();",
+"Code":"twteam.setText("999999");",
 "By" : "Test2",
 "About" : "Test3",
 "Category" : "Trst4"
