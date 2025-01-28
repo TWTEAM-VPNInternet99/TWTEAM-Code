@@ -1,24 +1,9 @@
 [{
-"TitleCode" : "Tittle A",
-"Msg" : "https://i.postimg.cc/C1vcrzBy/20231128-193946.jpg",
-"By" : "1",
-"Category" : "11",
-"Code":"{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"Code\", edittext1.getText().toString());\r\n\tsj.add(_item);\r\n}\r\n\r\ntextview1.setText(new Gson().toJson(sj));\r\n((ClipboardManager) getSystemService(getApplicationContext().CLIPBOARD_SERVICE)).setPrimaryClip(ClipData.newPlainText(\"clipboard\", new Gson().toJson(sj)));",
-"About" : "This is an example of title text or content 1 \r\nCreator: Mo Hesham."
-},
-{
-"TitleCode" : "Tittle B",
-"Msg" : "https://i.postimg.cc/8c9J0HP8/images-5.jpg",
-"By" : "2",
-"Category" : "22",
-"Code" : "code2",
-"About" : "This is an example of title text or content 2 \r\nCreator: Mo Hesham."
-},
-{
-"TitleCode" : "Tittle C",
-"Msg" : "https://i.postimg.cc/brBkjPgB/images-1.png",
-"By" : "3",
-"Category" : "33",
-"Code" : "code3",
-"About" : "This is an example of title text or content 3 \r\nCreator: Mo Hesham."
+[{
+"TitleCode" : "TWTEAM TEST",
+"Msg" : "Test Message ",
+"By" : "TWTEAM",
+"Category" : "Vonn",
+"Code":"{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"Code\", edittext1.getText().toString());\r\n\tsj.add(_item);\r\n}\r\n\r\nssh \u003d new Gson().toJson(sj);\r\ne1.setText(ssh.substring(2, ssh.length()-2));\r\nSaver \u003d \"[{\\n\\\"TitleCode\\\" : \\\"\".concat(edittext6.getText().toString().concat(\"\\\",\\n\".concat(\"\\\"Msg\\\" : \\\"\".concat(edittext5.getText().toString().concat(\"\\\",\\n\".concat(\"\\\"By\\\" : \\\"\".concat(edittext4.getText().toString().concat(\"\\\",\\n\".concat(\"\\\"Category\\\" : \\\"\".concat(edittext3.getText().toString().concat(\"\\\",\\n\".concat(e1.getText().toString().concat(\",\\n\".concat(\"\\\"About\\\" : \\\"\".concat(edittext2.getText().toString().concat(\"\\\"\\n},\".concat(\"\")))))))))))))))));\r\ntextview2.setText(Saver);\r\nssh \u003d \"\";",
+"About" : "ABOUT"
 }]
