@@ -2,7 +2,11 @@
 {
 "TitleCode" : "TEST ON TWTEAM 555",
 "Msg" : "TWTEM 66666",
-"Code":"linear1.setElevation((float)7);",
+"Code":"twteam.setAdapter(new TwteamAdapter(test));
+((BaseAdapter)twteam.getAdapter()).notifyDataSetChanged();
+Q = new Gson().toJson(test);
+test = new Gson().fromJson(_response, new TypeToken<ArrayList<HashMap<String, Object>>>(){}.getType());
+_LoadJsonByTWTEAM_Code("https://raw.githubusercontent.com/TWTEAM-VPNInternet99/TWTEAM-Code/refs/heads/main/TETEAM-CODEJava");",
 "By" : "Test2",
 "About" : "Test3",
 "Category" : "Trst4"
