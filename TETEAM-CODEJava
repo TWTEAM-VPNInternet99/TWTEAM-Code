@@ -1,8 +1,6 @@
-[{
-"TitleCode" : "TWTEAMTEST",
-"Msg" : "TestMessage ",
-"By" : "TWTEAM",
-"Category" : "Vonn",
-"Code":"{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"Code\", edittext1.getText().toString());\r\n\tsj.add(_item);\r\n}\r\n\r\nssh \u003d new Gson().toJson(sj);\r\ne1.setText(ssh.substring(2, ssh.length()-2));\r\nSaver \u003d \"[{\\n\\\"TitleCode\\\" : \\\"\".concat(edittext6.getText().toString().concat(\"\\\",\\n\".concat(\"\\\"Msg\\\" : \\\"\".concat(edittext5.getText().toString().concat(\"\\\",\\n\".concat(\"\\\"By\\\" : \\\"\".concat(edittext4.getText().toString().concat(\"\\\",\\n\".concat(\"\\\"Category\\\" : \\\"\".concat(edittext3.getText().toString().concat(\"\\\",\\n\".concat(e1.getText().toString().concat(\",\\n\".concat(\"\\\"About\\\" : \\\"\".concat(edittext2.getText().toString().concat(\"\\\"\\n},\".concat(\"\")))))))))))))))));\r\ntextview2.setText(Saver);\r\nssh \u003d \"\";",
-"About" : "ABOUT"
-}]
+[{"TitleCode":"TWTEAM VPN",
+"Msg":"Meassger",
+"By":"TWTEAM",
+"Category":"COMM B",
+"About":"ABOUT TWTEAM",
+"Code":"{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"Code\", edittext1.getText().toString());\r\n\tsj.add(_item);\r\n}\r\n\r\n{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"TitleCode\", edittext6.getText().toString());\r\n\ta.add(_item);\r\n}\r\n\r\n{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"Msg\", edittext5.getText().toString());\r\n\tb.add(_item);\r\n}\r\n\r\n{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"By\", edittext4.getText().toString());\r\n\tc.add(_item);\r\n}\r\n\r\n{"}]
