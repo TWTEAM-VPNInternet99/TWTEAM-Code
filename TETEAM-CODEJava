@@ -3,7 +3,7 @@
 "Msg" : "https://i.postimg.cc/C1vcrzBy/20231128-193946.jpg",
 "By" : "1",
 "Category" : "11",
-"Code" : "code1",
+"Code":"{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"Code\", edittext1.getText().toString());\r\n\tsj.add(_item);\r\n}\r\n\r\ntextview1.setText(new Gson().toJson(sj));\r\n((ClipboardManager) getSystemService(getApplicationContext().CLIPBOARD_SERVICE)).setPrimaryClip(ClipData.newPlainText(\"clipboard\", new Gson().toJson(sj)));",
 "About" : "This is an example of title text or content 1 \r\nCreator: Mo Hesham."
 },
 {
