@@ -10,7 +10,10 @@
 {
 "TitleCode" : "ROUK Fix",
 "Msg" : "TWTEM 999",
-"Code" : "Test11",
+"Code" : "if (dataListMap.size() > 0) {
+	((ClipboardManager) getSystemService(getApplicationContext().CLIPBOARD_SERVICE)).setPrimaryClip(ClipData.newPlainText("clipboard", new Gson().toJson(dataListMap)));
+	json_result.setText(new Gson().toJson(dataListMap));
+}",
 "By" : "Test22",
 "About" : "Test33",
 "Category" : "Trst44"
