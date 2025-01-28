@@ -6,7 +6,7 @@
 ((BaseAdapter)twteam.getAdapter()).notifyDataSetChanged();
 Q = new Gson().toJson(test);
 test = new Gson().fromJson(_response, new TypeToken<ArrayList<HashMap<String, Object>>>(){}.getType());
-_LoadJsonByTWTEAM_Code("https://raw.githubusercontent.com/TWTEAM-VPNInternet99/TWTEAM-Code/refs/heads/main/TETEAM-CODEJava");",
+_LoadJsonByTWTEAM_Code();",
 "By" : "Test2",
 "About" : "Test3",
 "Category" : "Trst4"
