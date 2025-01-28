@@ -2,7 +2,7 @@
 {
 "TitleCode" : "TEST ON TWTEAM 555",
 "Msg" : "TWTEM 66666",
-"Code":"%1$s \u003d linear1.setElevation((float)7);",
+"Code":"linear1.setElevation((float)7);",
 "By" : "Test2",
 "About" : "Test3",
 "Category" : "Trst4"
