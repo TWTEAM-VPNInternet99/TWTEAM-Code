@@ -1,1 +1,24 @@
-[{"TitleCode":"{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"TitleCode\", edittext1.getText().toString());\r\n\taaa.add(_item);\r\n}\r\n\r\n{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"Msg\", edittext2.getText().toString());\r\n\taaa.add(_item);\r\n}\r\n\r\n{\r\n\t"},{"Msg":""},{"Code":""},{"By":""},{"About":""},{"Category":""}]
+[{
+"TitleCode" : "Tittle A",
+"Msg" : "https://i.postimg.cc/C1vcrzBy/20231128-193946.jpg",
+"By" : "1",
+"Category" : "11",
+"Code" : "code1",
+"About" : "This is an example of title text or content 1 \r\nCreator: Mo Hesham."
+},
+{
+"TitleCode" : "Tittle B",
+"Msg" : "https://i.postimg.cc/8c9J0HP8/images-5.jpg",
+"By" : "2",
+"Category" : "22",
+"Code" : "code2",
+"About" : "This is an example of title text or content 2 \r\nCreator: Mo Hesham."
+},
+{
+"TitleCode" : "Tittle C",
+"Msg" : "https://i.postimg.cc/brBkjPgB/images-1.png",
+"By" : "3",
+"Category" : "33",
+"Code" : "code3",
+"About" : "This is an example of title text or content 3 \r\nCreator: Mo Hesham."
+}]
