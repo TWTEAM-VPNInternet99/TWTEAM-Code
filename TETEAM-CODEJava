@@ -1,4 +1,10 @@
-[{
+[{"TitleCode":"โคส เปิดลิ้ง",
+"Msg":"Code Open Link website",
+"By":"TWTEAM",
+"Category":"Java",
+"About":"กดเข้าลิ้งเว็บไซต์ หรือ เว็บอะไรก็ได้",
+"Code":"_____________________________________________________\n\nprivate Intent MyLink \u003d new Intent();\n\n_____________________________________________________\n\nMyLink.setAction(Intent.ACTION_VIEW);\n\t\t\t\tMyLink.setData(Uri.parse(\"ใส่ลิ้งที่ต้องการ\"));\n\t\t\t\tstartActivity(MyLink);"},
+{
 "TitleCode" : "<Code Toast>",
 "Msg" : "Code Toast ByTWTEAM",
 "By" : "TWTEAM",
