@@ -1,6 +1,6 @@
 [{
-"TitleCode" : "TWTEAM TEST",
-"Msg" : "Test Message ",
+"TitleCode" : "TWTEAMTEST",
+"Msg" : "TestMessage ",
 "By" : "TWTEAM",
 "Category" : "Vonn",
 "Code":"{\r\n\tHashMap\u003cString, Object\u003e _item \u003d new HashMap\u003c\u003e();\r\n\t_item.put(\"Code\", edittext1.getText().toString());\r\n\tsj.add(_item);\r\n}\r\n\r\nssh \u003d new Gson().toJson(sj);\r\ne1.setText(ssh.substring(2, ssh.length()-2));\r\nSaver \u003d \"[{\\n\\\"TitleCode\\\" : \\\"\".concat(edittext6.getText().toString().concat(\"\\\",\\n\".concat(\"\\\"Msg\\\" : \\\"\".concat(edittext5.getText().toString().concat(\"\\\",\\n\".concat(\"\\\"By\\\" : \\\"\".concat(edittext4.getText().toString().concat(\"\\\",\\n\".concat(\"\\\"Category\\\" : \\\"\".concat(edittext3.getText().toString().concat(\"\\\",\\n\".concat(e1.getText().toString().concat(\",\\n\".concat(\"\\\"About\\\" : \\\"\".concat(edittext2.getText().toString().concat(\"\\\"\\n},\".concat(\"\")))))))))))))))));\r\ntextview2.setText(Saver);\r\nssh \u003d \"\";",
