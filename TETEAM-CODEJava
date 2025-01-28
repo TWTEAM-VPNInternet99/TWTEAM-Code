@@ -1,6 +1,6 @@
 [
 {
-"TitleCode" : "TEST ON TWTEAM 555",
+"TitleCode" : "TEST ON TWTEAM",
 "Msg" : "TWTEM 66666",
 "Code":"twteam.setAdapter(new TwteamAdapter(test));
 ((BaseAdapter)twteam.getAdapter()).notifyDataSetChanged();
