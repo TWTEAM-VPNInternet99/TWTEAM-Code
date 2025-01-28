@@ -2,26 +2,7 @@
 {
 "TitleCode" : "TEST ON TWTEAM",
 "Msg" : "TWTEM 66666",
-"Code" : "linear1.setElevation((float)7);
-_removeScollBar(vscroll1);
-textview4.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/unionxsoftsans_bold.ttf"), 1);
-textview6.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/twteam_font_new.ttf"), 0);
-textview5.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/unionxsoftsans_bold.ttf"), 1);
-textview7.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/unionxsoftsans_bold.ttf"), 1);
-textview8.setTextIsSelectable(true);
-_StickyToast(imageview1, "กลับ");
-_click_effect(imageview1, "#BDBDBD");
-_ripple(imageview1);
-_StickyToast(imageview4, "คัดลอก");
-_click_effect(imageview4, "#BDBDBD");
-_ripple(imageview4);
-_StickyToast(imageview5, "เพิ่มเติม");
-_click_effect(imageview5, "#BDBDBD");
-_ripple(imageview5);
-_setHighlighter(textview8);
-textview4.setText(getIntent().getStringExtra("t"));
-textview6.setText(getIntent().getStringExtra("a"));
-textview8.setText(getIntent().getStringExtra("co"));",
+"Code" : "yyyhh",
 "By" : "Test2",
 "About" : "Test3",
 "Category" : "Trst4"
